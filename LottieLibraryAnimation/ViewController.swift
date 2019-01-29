@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         */
         animationView.setAnimation(named: "circles-loading")
         animationView.loopAnimation = true
+        animationView.autoReverseAnimation = true
         animationView.play()
     }
 
