@@ -20,7 +20,11 @@ class ViewController: UIViewController {
   
     }
     func startAnimation () {
-        animationView.setAnimation(named: "1798-check-animation")
+        /* check-animation
+        animationView.setAnimation(named: "check-animation")
+        */
+        animationView.setAnimation(named: "circles-loading")
+        animationView.loopAnimation = true
         animationView.play()
     }
 

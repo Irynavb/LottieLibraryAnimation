@@ -12,7 +12,8 @@
 		5EA3228622008CBB0088DC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA3228422008CBB0088DC03 /* Main.storyboard */; };
 		5EA3228822008CC20088DC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA3228722008CC20088DC03 /* Assets.xcassets */; };
 		5EA3228B22008CC20088DC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA3228922008CC20088DC03 /* LaunchScreen.storyboard */; };
-		5EA32293220093A70088DC03 /* 1798-check-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EA32292220093A60088DC03 /* 1798-check-animation.json */; };
+		5EA32293220093A70088DC03 /* check-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EA32292220093A60088DC03 /* check-animation.json */; };
+		5EA322952200AFBA0088DC03 /* circles-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EA322942200AFBA0088DC03 /* circles-loading.json */; };
 		7E6378E3C50AB1F2F4B08E54 /* Pods_LottieLibraryAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AA87888DFE857C219B32C4 /* Pods_LottieLibraryAnimation.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +27,8 @@
 		5EA3228722008CC20088DC03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EA3228A22008CC20088DC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EA3228C22008CC20088DC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EA32292220093A60088DC03 /* 1798-check-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1798-check-animation.json"; sourceTree = "<group>"; };
+		5EA32292220093A60088DC03 /* check-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "check-animation.json"; sourceTree = "<group>"; };
+		5EA322942200AFBA0088DC03 /* circles-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "circles-loading.json"; sourceTree = "<group>"; };
 		6F6F16CB2B4138D1860FF80C /* Pods-LottieLibraryAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieLibraryAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieLibraryAnimation/Pods-LottieLibraryAnimation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +76,8 @@
 			children = (
 				5EA3228022008CBB0088DC03 /* AppDelegate.swift */,
 				5EA3228222008CBB0088DC03 /* ViewController.swift */,
-				5EA32292220093A60088DC03 /* 1798-check-animation.json */,
+				5EA32292220093A60088DC03 /* check-animation.json */,
+				5EA322942200AFBA0088DC03 /* circles-loading.json */,
 				5EA3228422008CBB0088DC03 /* Main.storyboard */,
 				5EA3228722008CC20088DC03 /* Assets.xcassets */,
 				5EA3228922008CC20088DC03 /* LaunchScreen.storyboard */,
@@ -151,9 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA322952200AFBA0088DC03 /* circles-loading.json in Resources */,
 				5EA3228B22008CC20088DC03 /* LaunchScreen.storyboard in Resources */,
 				5EA3228822008CC20088DC03 /* Assets.xcassets in Resources */,
-				5EA32293220093A70088DC03 /* 1798-check-animation.json in Resources */,
+				5EA32293220093A70088DC03 /* check-animation.json in Resources */,
 				5EA3228622008CBB0088DC03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
