@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         /* check-animation
         animationView.setAnimation(named: "check-animation")
         */
-        animationView.setAnimation(named: "check-animation")
+        animationView.setAnimation(named: "circles-loading")
         animationView.loopAnimation = true
         animationView.autoReverseAnimation = true
         animationView.play()
